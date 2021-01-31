@@ -1,0 +1,10 @@
+﻿@font-face {
+    font-family: "Playfair Display Black Italic";
+    src: url("../fonts/PlayfairDisplay-BlackItalic.ttf");
+}
+
+h1 
+{
+    margin: 70px 0 10px 20px;
+    font-family: "Playfair Display Black Italic";
+}

@@ -1,0 +1,60 @@
+﻿@font-face {
+    font-family: "Work Sans Medium Italic";
+    src: url("../fonts/WorkSans-MediumItalic.ttf");
+}
+
+body 
+{
+    margin: 0;
+    font-family: "Work Sans Medium Italic"; 
+}
+
+nav 
+{
+    background-color: black;
+    text-align: center;
+    width: 100vw;
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 5vw; /*use to change height*/
+}
+
+nav li 
+{
+    list-style-type: none;
+}
+
+nav a 
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: #D9C177;
+    padding: 20px 5vw; /*use to change width*/
+    transition: all 0.1s ease-in;
+}
+
+nav a:hover 
+{
+    color: white;
+    transition: all 0.1s ease-in;
+}
+
+@media screen and (max-width: 600px) 
+{
+    nav a {
+        float: none;
+        display: block;
+    }
+}
+
+#logo 
+{
+    margin: 5px 0 15px 15px;
+    width:20vw;
+}

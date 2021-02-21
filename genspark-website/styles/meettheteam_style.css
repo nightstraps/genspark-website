@@ -1,0 +1,58 @@
+@font-face{
+font-family: "Playfair Display Black Italic";
+src: url("../fonts/PlayfairDisplay-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Work Sans Medium";
+    src: url("../fonts/WorkSans-Medium.ttf");
+}
+
+.head {
+margin: 100px auto;
+text-align: center;
+font-family: "Playfair Display Black Italic";
+font-style: italic;
+font-size: 25px;
+width: 500px;
+}
+
+#l1 
+{
+    margin: 0;
+    padding: 0;
+}
+
+#l2 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    align-content: center;
+    width: 60vw;
+    margin: 0 auto 100px auto;
+    padding: 0;
+    text-justify: inter-word;
+
+}
+
+.content .text {
+    font-family: "Work Sans Medium";
+    font-size: 20px;
+    text-align: left;
+    text-justify: inter-word;
+    word-wrap: break-word;
+
+    margin: 0;
+    padding: 0;
+
+    left: 50%;
+
+}
+
+.tab 
+{
+    margin: 20px;
+}

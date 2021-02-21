@@ -16,7 +16,7 @@
 {
     font-family: "Playfair Display Black";
     font-style: italic;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 0 5px 0;
     width: 60vw;
     
@@ -64,9 +64,33 @@ h3
 
 .content 
 {
+    font-size: 23px;
     overflow-wrap: break-word;
     margin: 0 0 0 100px;
     width: 60vw;
+}
+
+.content a 
+{
+    color: #D9C177;
+    text-decoration: none;
+}
+
+.content img 
+{
+    margin:auto;
+    width: 700px;
+}
+
+.image
+{
+    text-align:center;
+}
+
+.image p
+{
+    margin: 40px auto 10px auto;
+    font-size: 20px;
 }
 
 .words {
@@ -92,6 +116,11 @@ h3
     padding: 50px;
     color: #D9C177;
     font-style: none;
+}
+
+.citations
+{
+
 }
 
 img 

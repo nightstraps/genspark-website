@@ -1,1 +1,0 @@
-# genspark-website
